@@ -1,0 +1,5 @@
+.git/
+.gitignore
+dockerfile
+start.sh
+
