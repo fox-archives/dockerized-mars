@@ -6,13 +6,15 @@ The MIPS Assembler and Runtime Simulator (MARS) is a good program for running (s
 
 If you have not used Docker, you can still use this setup easily because all the necessary commands are encapsulated in a shell script.
 
-If you are on GNU/Linux, this will only work if you are running an Xorg display server (sorry Wayland and Mir folks!).
+If you are on GNU/Linux, this will only work if you are running an Xorg display server on your host machine. (Wayland and Mir are not supported)
+
+## Notes
+
+Rather than specificing mount points and the similar in a `docker-compose.yml` (requiring installation of `docker-compose`), I opted for using a shell script to build and run containers from the Docker image.
 
 ## Setup
 
-Be sure [Docker is installed](https://docs.docker.com/install)
-
-Rather than specificing mount points and the similar in a `docker-compose.yml` (requiring installation of `docker-compose`), I opted for using a shell script to build and run containers from the Docker image.
+Docker [must be installed](https://docs.docker.com/install).
 
 ```sh
 git clone https://github.com/eankeen/dockerized-mars
