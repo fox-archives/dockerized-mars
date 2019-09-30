@@ -1,9 +1,5 @@
 #!/bin/sh
 
-# prune images and containers
-sudo docker image prune -f
-sudo docker container prune -f
-
 # build a Docker image as per the configuration files
 sudo docker image build --rm \
                         -tmars_ek:default \
