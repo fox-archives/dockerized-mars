@@ -6,7 +6,6 @@ sudo docker container prune -f
 
 # build a Docker image as per the configuration files
 sudo docker image build --rm \
-                        -fdockerfile \
                         -tmars_ek:default \
                         .
 
