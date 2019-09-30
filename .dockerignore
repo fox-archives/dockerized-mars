@@ -1,6 +1,6 @@
 .git/
 .gitignore
 .dockerignore
-dockerfile
+Dockerfile
 start.sh
 
