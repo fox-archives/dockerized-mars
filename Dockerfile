@@ -20,4 +20,3 @@ ENV HOME /home/developer
 WORKDIR /home/developer
 
 CMD java -jar Mars4_5.jar
-
